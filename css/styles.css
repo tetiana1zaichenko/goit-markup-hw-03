@@ -4,15 +4,58 @@ body {
     background-color: white;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
 .page-nav a {
 text-decoration: none;
 }
 
 .page-address a {
     text-decoration: none;
+}
+
+.page-header {
+border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .logo{
@@ -24,6 +67,12 @@ text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .studio {
     color: #2e2f42;
 }
@@ -34,6 +83,8 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .link-nav:hover, .link-nav:focus {
@@ -42,7 +93,8 @@ text-decoration: none;
 
 
 .page-address {
-    font-style: normal
+    font-style: normal;
+    margin-left:auto
 }
 
 .link-address {
@@ -52,6 +104,8 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .link-address:hover, .link-address:focus {
