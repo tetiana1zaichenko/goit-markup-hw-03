@@ -118,6 +118,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .section-title {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .text-title {
     color: #ffffff;
@@ -126,7 +128,6 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    padding: 188px 0 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -146,6 +147,7 @@ border-bottom: 1px solid #e7e9fc;
     border: none;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
     
 }
 
@@ -167,16 +169,17 @@ background-color: #404BBF;
     overflow: hidden;
 }
 
+.section-advantages {
+    padding: 120px 0;
+}
+
 .advantages-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .advantages-item {
-    width: calc(( 100% - 3 * 24) / 4)
-    
+    width: calc(( 100% - 3 * 24) / 4); 
 }
 
 .advantages-subtitle {
@@ -196,7 +199,9 @@ background-color: #404BBF;
 }
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -207,8 +212,7 @@ background-color: #404BBF;
     text-transform: capitalize;
     width: 162px;
     text-align: center;
-    padding-top: 120px;
-    margin: 0 auto 72px auto;
+    margin: 0 auto 72px;
 
 }
 
@@ -220,7 +224,13 @@ background-color: #404BBF;
 }
 
 .team-performance {
-background-color: #FFFFFF
+background-color: #FFFFFF;
+width: calc((100% - 3 * 24) / 4);
+border-radius: 0 0 4px 4px;
+}
+
+.team-name-job {
+padding: 32px 0;
 }
 
 .team-name {
@@ -230,7 +240,6 @@ background-color: #FFFFFF
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .team-job {
@@ -243,6 +252,10 @@ background-color: #FFFFFF
     padding-bottom: 32px;
 }
 
+.section-portfolio {
+padding: 120px 0;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -251,13 +264,33 @@ background-color: #FFFFFF
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
+
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+
+.portfolio-item {
+width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-subtitle-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     font-weight: 400;
@@ -273,7 +306,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 150px 0;
 }
+
 .footer-text {
 font-weight: 400;
 font-size: 16px;
@@ -288,7 +323,10 @@ color: #F4F4FD;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;}
+    color: #4D5AE5;
+    margin-bottom: 16px;
+    display: inline-block;
+}
 
 .footer-studio {
      color: #f4f4fd;
