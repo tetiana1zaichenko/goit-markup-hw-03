@@ -213,8 +213,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    text-transform: capitalize;
-    width: 162px;
+    text-transform: capitalize;B
     text-align: center;
     margin: 0 auto 72px;
 
@@ -253,7 +252,6 @@ padding: 32px 0;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 .section-portfolio {
@@ -319,7 +317,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264px;
 }
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
